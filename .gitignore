@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Blocos
+blocos/
+saida_ml/
+features_cache.pkl
