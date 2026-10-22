@@ -1,0 +1,19 @@
+[project]
+name = "cold-card-ml-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "peroconino", email = "leandrofontellas@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+cold-card-ml-analysis = "cold_card_ml_analysis:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
