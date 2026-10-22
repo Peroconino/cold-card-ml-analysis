@@ -9,5 +9,5 @@ uv sync
 ```
 Rode o projeto:
 ```bash
-uv run lecc
+uv run cold-card-ml-analysis
 ```
